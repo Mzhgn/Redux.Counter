@@ -6,7 +6,7 @@ const numberElem = document.querySelector("#num");
 
 // Declare Counter Reducer
 const counterReducer = (action) => {
-  switch (action.type) {
+  switch (action) {
     case "INCREMENT": {
     }
     case "DECREMENT": {
@@ -17,3 +17,6 @@ const counterReducer = (action) => {
     }
   }
 };
+
+const store = Redux.createStore(counterReducer);
+console.log(store);
