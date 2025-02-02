@@ -19,4 +19,3 @@ const counterReducer = (action) => {
 };
 
 const store = Redux.createStore(counterReducer);
-console.log(store);
