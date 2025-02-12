@@ -20,7 +20,7 @@ body {
 .container:after {
   content: "";
   position: absolute;
-  width: 85%;
+  width: 83%;
   left: 7.5%;
   height: 120%;
   bottom: -10%;
